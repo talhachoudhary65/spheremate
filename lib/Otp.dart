@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Landingpage.dart';
 import 'Profile.dart';
 
 class Otp extends StatelessWidget {
@@ -108,7 +109,7 @@ class Otp extends StatelessWidget {
                 ),
                 child: GestureDetector(
                   onTap:(){
-                    Navigator.push(context,MaterialPageRoute(builder: (context) => Profilr(),));
+                    Navigator.push(context,MaterialPageRoute(builder: (context) => Landingpage(),));
                   },
                   child: Center(
                     child: Text("PROCEED",
