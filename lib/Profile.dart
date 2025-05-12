@@ -281,14 +281,9 @@ class Profilr extends StatelessWidget {
                     color: Colors.white,
         
                   ),)
-        
                 ],
-        
               ),
             ),
-        
-        
-        
           ],
         ),
       ),
