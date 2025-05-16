@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'PageControler.dart';
+
 class Home extends StatelessWidget {
   Home({super.key});
 
@@ -116,7 +118,12 @@ class Home extends StatelessWidget {
                 width: 40,
                 child: Column(
                   children: [
-                    Image.asset("assets/images/Messages.png", scale: 4),
+                    GestureDetector(
+                        onTap:(){
+
+                          Navigator.push(context,MaterialPageRoute(builder: (context) => PageViewClass(),));
+                        },
+                        child: Image.asset("assets/images/Messages.png", scale: 4)),
                     const SizedBox(height: 2),
                     Image.asset("assets/images/Group8.png", scale: 4),
                   ],
